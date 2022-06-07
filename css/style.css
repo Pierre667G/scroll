@@ -1,4 +1,42 @@
-img{
-   width: 13%;
+* {
+    box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+img{
+   max-width: 13%;
+   border-radius: 50%;
+}
+
+
+#service{
+    background-color: chartreuse;
+}
+
+#blog{
+    background-color:fuchsia;
+}
+
+#contact{
+    background-color:aqua;
+}
+
+
+a{
+   color: rgb(0, 0, 0);
+   font-size: 16px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(117, 117, 140);
+}
